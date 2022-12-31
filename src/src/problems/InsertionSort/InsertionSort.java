@@ -1,4 +1,4 @@
-package src.src.problems;
+package src.src.problems.InsertionSort;
 
 import java.util.Arrays;
 
