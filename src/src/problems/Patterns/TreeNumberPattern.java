@@ -1,6 +1,6 @@
 package src.src.problems.Patterns;
 
-public class atreeNumberPattern {
+public class TreeNumberPattern {
 
     public static void main(String[] args) {
         treePattern(5);
