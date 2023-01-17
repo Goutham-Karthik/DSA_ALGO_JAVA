@@ -18,7 +18,7 @@ public class FirstAndLastElement {
     public static void main(String[] args) {
 
         int[] nums = {2, 5, 9 , 9, 9, 9, 36, 48, 54};
-        System.out.println(Arrays.toString(searchRange(nums, 10)));
+        System.out.println(Arrays.toString(searchRange(nums, 9)));
 
     }
     static int[] searchRange(int[] nums, int target){
