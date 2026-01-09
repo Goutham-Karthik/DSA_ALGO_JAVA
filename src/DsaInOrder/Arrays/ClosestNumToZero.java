@@ -7,9 +7,10 @@ public class ClosestNumToZero {
     public static void main(String[] args) {
         int[] nums ={-4, -2,-1, 1, 2, 3};
         int closest = nums[0];
-        for(int i =1; i<nums.length-1; i++){
-            if(Math.abs(nums[i]) < Math.abs(closest) || (Math.abs(nums[i]) == Math.abs(closest) && nums[i]> closest )){
-                closest =nums[i];
+        for(int x : nums){
+            int abs = Math.abs(x);
+            if(abs < Math.abs(closest) || (abs == Math.abs(closest) && x > closest )){
+                closest = x;
             }
         }
         System.out.println(closest);
